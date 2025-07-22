@@ -1,0 +1,342 @@
+.layout{
+background-color: aliceblue;
+width: 1340px;   /* largura fixa */
+height: 200px;   /* altura fixa */
+box-shadow:2px 2px 5px #0f0d0d;
+border-radius: 10px;
+}
+.pagina{
+position: relative; /* ou absolute */
+top: 90px;    /* move 20px para baixo */
+left: -917px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.pagina:hover{
+background-color: rgb(209, 192, 175);
+}
+.botaolistafavoritos{
+position: relative; /* ou absolute */
+top: 90px;    /* move 20px para baixo */
+left: -50px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaolistafavoritos:hover{
+background-color: rgb(209, 192, 175);
+}
+.botaobuscarlivros{
+position: relative; /* ou absolute */
+top: 90px;    /* move 20px para baixo */
+left: 258px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaobuscarlivros:hover{
+background-color: rgb(209, 192, 175);
+}
+.botaoescluirlivros{
+position: relative; /* ou absolute */
+top: 90px;    /* move 20px para baixo */
+left: 565px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaoescluirlivros:hover{
+background-color: rgb(209, 192, 175);
+}
+.botaolistalivros{
+position: relative; /* ou absolute */
+top: 90px;    /* move 20px para baixo */
+left: 872px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaolistalivros:hover{
+background-color: rgb(209, 192, 175);
+}
+.botaoadicionarlivros{
+position: relative; /* ou absolute */
+top: 90px;    /* move 20px para baixo */
+left: 1179px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaoadicionarlivros:hover{
+background-color: rgb(209, 192, 175);
+}
+.botaoexcluirfavoritos{
+position: relative; /* ou absolute */
+top: 90px;    /* move 20px para baixo */
+left: -358px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaoexcluirfavoritos:hover{
+background-color: rgb(209, 192, 175);
+}
+
+/*pagina/quadro que aparece ao clicar no botao adicionar livros*/
+.quadro {
+width: 1300px;               /* Largura do quadro */
+height: 340px;              /* Altura do quadro */
+background-color: aliceblue;    /* Cor de fundo branca */
+border:aliceblue;     /* Borda escura */
+padding: 20px;              /* Espaço interno */
+margin: 100px auto;          /* Centraliza na página */
+border-radius: 15px;        /* Bordas arredondadas */
+box-shadow:2px 2px 5px #0f0d0d; /* Sombra leve */
+}
+.titulo1{
+text-align: center;/*coloca texto centralizado*/
+background-color:wheat;
+box-shadow:2px 2px 5px #0f0d0d;
+border-radius: 5px;
+position: relative;             /* permite mover com top/left */
+top: -15px;    /* move 20px para baixo */
+left: -16px;   /* move 30px para adireita*/
+}
+/*botoes de categoria*/
+.terror{
+position: relative; /* ou absolute */
+top: 85px;    /* move 20px para baixo */
+left: 129px;   /* move 30px para adireita*/
+width: 140px;   /* largura fixa */
+height: 32px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.terror:hover{
+background-color: rgb(209, 192, 175);
+}
+.acao{
+position: relative; /* ou absolute */
+top: 120px;    /* move 20px para baixo */
+left: -15px;   /* move 30px para adireita*/
+width: 140px;   /* largura fixa */
+height: 32px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.acao:hover{
+background-color: rgb(209, 192, 175);
+}
+.ficcaocientifica{
+position: relative; /* ou absolute */
+top: 85px;    /* move 20px para baixo */
+left: -302px;   /* move 30px para adireita*/
+width: 140px;   /* largura fixa */
+height: 32px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.ficcaocientifica:hover{
+background-color: rgb(209, 192, 175);
+}
+.romance{
+position: relative; /* ou absolute */
+top: 120px;    /* move 20px para baixo */
+left: -446px;   /* move 30px para adireita*/
+width: 140px;   /* largura fixa */
+height: 32px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7;  
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.romance:hover{
+background-color: rgb(209, 192, 175);
+}
+.comedia{
+position: relative; /* ou absolute */
+top: 156px;    /* move 20px para baixo */
+left: -448px;   /* move 30px para adireita*/
+width: 140px;   /* largura fixa */
+height: 32px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7;  
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.comedia:hover{
+background-color: rgb(209, 192, 175);
+}
+.drama{
+position: relative; /* ou absolute */
+top: 155px;    /* move 20px para baixo */
+left: -735px;   /* move 30px para adireita*/
+width: 140px;   /* largura fixa */
+height: 32px;   /* altura fixa */
+background-color:wheat;
+border: 2px solid #f9f7f7; 
+padding: 11px 11px; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.drama:hover{
+background-color: rgb(209, 192, 175);
+}
+.label{
+position: relative; /* ou absolute */
+top: -29px;    /* move 20px para baixo */
+left: 1px;   /* move 30px para adireita*/
+}
+.Categorias{
+position: relative; /* ou absolute */
+top: 100px;    /* move 20px para baixo */
+left: 1px;   /* move 30px para adireita*/
+}
+.input2{
+position: relative; /* ou absolute */
+top: -29px;    /* move 20px para baixo */
+left: 1px;   /* move 30px para adireita*/
+width: 200px;
+padding: -10px -10px;
+font-size: 16px;
+border: black;        /* borda azul */
+border-radius: 10px;              /* cantos arredondados */
+outline: none;                    /* remove contorno ao clicar */
+transition: 0.3s;                 /* animação suave */
+box-shadow:2px 2px 5px #0f0d0d; /* sombra leve */
+}
+.input2:hover{
+background-color: rgb(209, 192, 175);
+border-color: #d6c570;            /* muda a cor ao focar */
+box-shadow:2px 2px 5px #0f0d0d; /* luz azul ao redor */
+}
+.add{
+position: relative; /* ou absolute */
+top: -40px;    /* move 20px para baixo */
+left: -878px;   /* move 30px para adireita*/
+width: 140px;   /* largura fixa */
+height: 32px;   /* altura fixa */
+background-color:wheat;
+border: 2px solid #f9f7f7; 
+padding: 11px 11px; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.add:hover{
+background-color: rgb(209, 192, 175);
+border-color:aliceblue;            /* muda a cor ao focar */
+box-shadow:2px 2px 5px #0f0d0d; /* luz azul ao redor */
+}
+
+/*todos os input*/
+.input1{
+  width: 200px;
+  padding: -10px -10px;
+  font-size: 16px;
+  border: black;        /* borda azul */
+  border-radius: 10px;              /* cantos arredondados */
+  outline: none;                    /* remove contorno ao clicar */
+  transition: 0.3s;                 /* animação suave */
+box-shadow:2px 2px 5px #0f0d0d; /* sombra leve */
+}
+.input1:hover{
+background-color: rgb(209, 192, 175);
+border-color: #d6c570;            /* muda a cor ao focar */
+box-shadow:2px 2px 5px #0f0d0d; /* luz azul ao redor */
+}
+
+.botaoabrirlivro{
+position: relative; /* ou absolute */
+top:100px;    /* move 20px para baixo */
+left: -220px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaoabrirlivro:hover{
+background-color: rgb(209, 192, 175);
+}
+.botaomostrarlista{
+position: relative; /* ou absolute */
+top:150px;    /* move 20px para baixo */
+left: -373px;   /* move 30px para adireita*/
+width: 150px;   /* largura fixa */
+height: 40px;   /* altura fixa */
+background-color:wheat;
+color:rgb(13, 12, 12);
+padding: 11px 11px;
+border: 2px solid #f9f7f7; 
+border-radius: 7px;
+box-shadow:2px 2px 5px #0f0d0d;
+}
+.botaomostrarlista:hover{
+background-color: rgb(209, 192, 175);
+}
+.lista0{
+text-align: center;/*coloca texto centralizado*/
+background-color:aliceblue;
+box-shadow:2px 2px 5px #0f0d0d;
+border-radius: 5px;
+width: 700px;   /* largura fixa */
+height: 260px;   /* altura fixa */
+top:80px;    /* move 20px para baixo */
+left: 320px;   /* move 30px para*/
+position: relative;             /* permite mover com top/left */
+}
