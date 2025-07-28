@@ -115,7 +115,7 @@ function adicionarlivros() {
     // pega o valor, limpa espaços e coloca em minúsculas
     let valorTitulo = inputTitulo.value.trim().toLowerCase();
     if (valorTitulo === '') {
-        mostrarMensagem('⚠️ Por favor, digite um título.');
+        mostrarMensagem(' Por favor, digite um título primeiro antes de adicionar .');
         return;
     }
     // verifica se está na lista permitida
